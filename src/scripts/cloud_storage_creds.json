@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sevir-project-bdia",
+  "private_key_id": "7046acce24dc89eeda9324de81a7ac0cebecd85a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDlL47bY9w+lPO9\n0C7v8y77geFKTpKVyUfOPrHrLZsY/49SSJ17v8r7NJCyhIygqboToH509P3XwQKc\nDymln1HvhIt7+N3i+1DRMyBjJta6A5DCUMlVBX9R/SQvSW5hEnvclH9dq4TSIw+O\nD3QI8Qd+a/z6W8FjDCPoibAv3yz1lTdovizFjTsET6rhOlYSDkFPDkcioaAvq+BI\n+8KZpSZbKnf/SrHe1g0NWJb0S/MPOIOA9PYhilHmA/PSEMShZjaM/V9hJyvxz/Gz\nW3JsbZ2h+pCHlMThjYYJHwRXQv9H9MVZ2Rq9x0GI4To7Nf37AojOAM25Kk9BZOdp\nRDaSYgnFAgMBAAECggEAH5GozejizO6w5wkmzf/jYtrbG48t0IVvPKY/f7OX1POu\n3ENgXfa8kP8GnMXL+9LP7NAuBbzmvQdlwqAGuTz0M61AQWK1va78d4nhVjG4C4YI\n30Xy1aFHjmrzcbKzCkVaMQzLa9hVF/+jBDXLYp1AzlXgUjloBAAHb4qNGFWs2GQ4\nsdgcH4mamvk9BP1FEKDcmRKpi7sd1p9TRc4BnFBOXYYYBM8SKyCy/jZSLRmKMJJR\nFTwvKPVpXGmIuqJkiw1Dkht3z4t2pHTqFA/AVHcvOhPmgcnsKOlRIyMur+zLM4Jn\njoa5td46nt8qLESLQK4ylLmiE05+bs6LtVrt5IycqQKBgQD1e6HjQdxZNvqRvm6H\n3nQQccEieSu3tp01O0coxO80uKWTc2+ukMqXKPuCjCtObsWcnTExRaD2XO5fRkjq\nEGC970Vh6SFDB5kVfCnT31zrFA5gLj2lp9qQvWmylwhGox05ggtZzpWJHLKyz4Xu\nhiWEXTIrzhQW/K3WhI4CogtAywKBgQDvAS8suzSS8xdaVa6AFjTNsBTTL9KJ4H6N\n3n/3LWr7qNu9KMwgHHzVajJN6jmBTttnFP8j3WONz3G7ONRCnpUFsC3K+zECWFoH\nPGD3dSnZv2KnQTk71/jjb56oFHy59W24eLNpWNcSx16J0aABF2QZear0NNcQUmmr\nxTwdAJVdrwKBgQCNZKyWLTUx3cztbXZUo/jOD/diV9CqfHCIXKBcBzKQd1pHV9IY\nBiXqcxyK0RmQj5Ua5B+VdbmErXpPPjh5OP2/6LVZ8+HIrfOqwF2HP7xRWrf9BiVT\n6R6nB7J9vyhxJzqKCTFohOj0lKcI/ybxgCrT1qozOPuxUdD/IlJ5icRZiQKBgBoQ\na/+Zzsrzvak5TNVlFo8T08GQJoqos8Ru7k+bYV5edNA1IcWita5kbWX31BuY6O5d\n6NEVdKTjaYi8UtGND71WEDhhml+iGPdPC1gRK+Y2K+EHiOFQ1TCgXJIB4fQ5oqSK\nbS5g5NuEaHfpJ2TXEzCABzeoh4edJS75TGvxQ1i7AoGBAMIbTejaqWPHgYjE2e0v\nWYh+uTWv5MNTAlFGgOKq7pqLgTsTGyEVYQ8D6AEuQLE1/+5OVVrH+QSGRM3NWgj3\ni2APGkWYJUNnNLfn5g0DSvSOPBxEIz4C3z2wIdzV8mVDKy6zJmpjJ802XQutPeM6\nFxEHUG1ubQdHJntClpj5S/k0\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp-connect@sevir-project-bdia.iam.gserviceaccount.com",
+  "client_id": "104099984025916160388",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp-connect%40sevir-project-bdia.iam.gserviceaccount.com"
+}

@@ -1,0 +1,15 @@
+service: serverless-ner-model-docker
+
+provider:
+  name: aws # provider
+  region: us-east-1 # aws region
+  memorySize: 3008 # optional, in MB, default is 1024
+  timeout: 900 # optional, in seconds, default is 6
+
+functions:
+  questionanswering:
+    image: 638433537201.dkr.ecr.us-east-1.amazonaws.com/ner-model:latest
+    events:
+      - http:
+          path: qa # http path
+          method: post # http method

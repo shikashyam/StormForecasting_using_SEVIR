@@ -1,0 +1,15 @@
+service: serverless-summarization-pegasus-docker
+
+provider:
+  name: aws # provider
+  region: us-east-1 # aws region
+  memorySize: 3008 # optional, in MB, default is 1024
+  timeout: 60 # optional, in seconds, default is 6
+
+functions:
+  questionanswering:
+    image: 902456164708.dkr.ecr.us-east-1.amazonaws.com/summarization-pegasus:latest
+    events:
+      - http:
+          path: qa # http path
+          method: post # http method

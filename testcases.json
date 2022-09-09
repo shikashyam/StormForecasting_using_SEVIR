@@ -1,0 +1,189 @@
+{
+    "latitude": 36.663514,
+    "longitude": -93.821135,
+    "distancelimit":100,
+    "date": "2019-06-26",
+    "time": "15:32",
+    "city": "BARRY",
+    "state": "MISSOURI",
+    "refresh_flag": "Y",
+    "threshold_time": "3",
+    "SearchBy": "LatLong"
+    }
+{
+  "latitude": 42.253862,
+  "longitude": -122.844200,
+  "distancelimit":300,
+  "date": "2019-04-08",
+  "time": "15:00",
+  "city": "DESCHUTES",
+  "state": "OREGON",
+  "refresh_flag": "Y",
+  "threshold_time": "30",
+  "SearchBy": "Loc"
+    }
+
+{
+  "latitude": 30.964366,
+  "longitude": -106.283996,
+  "distancelimit":500,
+  "date": "2019-06-02",
+  "time": "17:08",
+  "city": "EDDY",
+  "state": "NEW MEXICO",
+  "refresh_flag": "Y",
+  "threshold_time": "10",
+  "SearchBy": "LatLong"
+}
+
+{
+  "latitude": 45.430720,
+  "longitude": -107.359613,
+  "distancelimit":400,
+  "date": "2019-06-27",
+  "time": "23:40",
+  "city": "DAWSON",
+  "state": "MONTANA",
+  "refresh_flag": "N",
+  "threshold_time": "300",
+  "SearchBy": "LatLong"
+}
+
+{
+  "latitude": 43.072650,
+  "longitude": -97.458831,
+  "distancelimit"100:,
+  "date": "2019-06-04",
+  "time": "13:50",
+  "city": "RENVILLE",
+  "state": "MINNESOTA",
+  "refresh_flag": "Y",
+  "threshold_time": "40",
+  "SearchBy": "Loc"
+}
+{
+  "latitude": 31.799470,
+  "longitude": -102.312969,
+  "distancelimit":500,
+  "date": "2019-05-20",
+  "time": "18:38",
+  "city": "KING",
+  "state": "TEXAS",
+  "refresh_flag": "N",
+  "threshold_time": "300",
+  "SearchBy": "LatLong"
+}
+{
+  "latitude": 36.848225,
+  "longitude": -98.382086,
+  "distancelimit":200,
+  "date": "2019-03-29",
+  "time": "10:19",
+  "city": "LYON",
+  "state": "KANSAS",
+  "refresh_flag": "Y",
+  "threshold_time": "300",
+  "SearchBy": "Loc"
+}
+{
+  "latitude": 38.858459,
+  "longitude": -100.333190,
+  "distancelimit":500,
+  "date": "2019-06-14",
+  "time": "19:34",
+  "city": "CLAY",
+  "state": "NEBRASKA",
+  "refresh_flag": "N",
+  "threshold_time": "400",
+  "SearchBy": "LatLong"
+}
+{
+  "latitude": 28.202347,
+  "longitude": -87.212569,
+  "distancelimit":500,
+  "date": "2019-06-01",
+  "time": "14:38",
+  "city": "FRANKLIN",
+  "state": "FLORIDA",
+  "refresh_flag": "Y",
+  "threshold_time": "40",
+  "SearchBy": "Loc"
+}
+{
+  "latitude": 40.434580,
+  "longitude": -116.243310,
+  "distancelimit":450,
+  "date": "2019-05-07",
+  "time": "15:00",
+  "city": "TWIN FALLS",
+  "state": "IDAHO",
+  "refresh_flag": "Y",
+  "threshold_time": "60",
+  "SearchBy": "Loc"
+}
+
+#FAILED TEST CASES
+{
+  "latitude": null,
+  "longitude": null,
+  "distancelimit":,
+  "date": "2019-06-21",
+  "time": "06:44",
+  "city": "JOHNSON",
+  "state": "KANSASS",
+  "refresh_flag": "Y",
+  "threshold_time": "50",
+  "SearchBy": "Loc"
+}
+
+{
+  "latitude": null,
+  "longitude": null,
+  "distancelimit":null,
+  "date": "2019-05-16",
+  "time": "16:20",
+  "city": "HENDRIKS",
+  "state": "INDIANNA",
+  "refresh_flag": "Y",
+  "threshold_time": "50",
+  "SearchBy": "Loc"
+}
+
+{
+  "latitude": null,
+  "longitude": null,
+  "distancelimit":null,
+  "date": "",
+  "time": "18:00",
+  "city": "MIDLAND",
+  "state": "TEXAS",
+  "refresh_flag": "Y",
+  "threshold_time": "50",
+  "SearchBy": "Loc"
+}
+
+{
+  "latitude": 34.35504,
+  "longitude": -86.897727,
+  "distancelimit":2,
+  "date": "2019-06-24",
+  "time": "16:00",
+  "city": "ROANE",
+  "state": "TENNESSEE",
+  "refresh_flag": "Y",
+  "threshold_time": "30",
+  "SearchBy": "LatLong"
+}
+
+{
+  "latitude": 40.594269,
+  "longitude": -99.948691,
+  "distancelimit":100,
+  "date": "2019-06-09",
+  "time": "15:24",
+  "city": "LINN",
+  "state": "IOWWA",
+  "refresh_flag": "Y",
+  "threshold_time": "40",
+  "SearchBy": "Loc"
+}
