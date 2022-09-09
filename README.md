@@ -1,13 +1,23 @@
-Assignment 5 – Implementation of Serverless BERT
+End to End cloud based Data pipeline for Storm Forecasting using Satellite Imagery
 ==============================
 
 https://share.streamlit.io/sairaghav1999/streamlit/main/app.py
 
 Introduction
 ==============================
-As part of the fifth assignment of DAMG 7245 we had to design and build 2 more API's to call the NLP models which are created on serverless lambda fucntions **Summarization and Named Entity Recognition**. The user can enter any latitude and longitude value as input and the API will search for the nearest event to that latitude and longitude and return the forecast along with a summary and Named entity recognition of the event narrative.
 
-The API endpoints are secured with JWT tokens and can be accessed only by authenticated users which are tracked in a BigQuery table and all the users have their associated tokens which are used to access the API endpoint to enable nowcasting.
+Here we are using the Nowcasting model provided by NOAA - SEVIR and package it within an API using FastAPI. We will be creating the API end points and making it accessible to our end users which is the NOAA. Within the underlying code in the API, we will use the inputs from the User to find the respective event within the SEVIR database, and then use the nowcasting model to take the 12 images as input and return 12 images as output, which will be stored and the path made available to the user.
+
+The codelabs document can be found here: https://codelabs-preview.appspot.com/?file_id=1igtVNAzM9fyD_d46_67MNus2XW2FihXgPBBE9Ywsnh8#6
+
+The webApp logic also checks if the entered longitude and latitude fall within a range of certain miles of the nearest longitude and latitude for a matching event id in our Nowcasting system. The user can enter any latitude and longitude value as input and the API will search for the nearest event to that latitude and longitude and return the forecast.  The API endpoints are secured with JWT tokens and can be accessed only by authenticated users which are tracked in a BigQuery table and all the users have their associated tokens which are used to access the API endpoint to enable nowcasting.
+
+Additionally, we have implemented a result caching system for SEVIR. There is an airflow workflow that runs hourly and caches the results for SEVIR nowcasting for 50 events from the Catalog.
+
+The Streamlit frontend now enables the user to choose if they want a fresh nowcasting result or a cache and specify a number of minutes threshold for acceptable cache data.
+
+Finally, we have designed and built 2 more API's to call the NLP models which are created on serverless lambda fucntions **Summarization and Named Entity Recognition**. The user can enter any latitude and longitude value as input and the API will search for the nearest event to that latitude and longitude and return the forecast along with a summary and Named entity recognition of the event narrative.
+
 
 Additionally, we have updated the web application so an authenticated user can only use upto 10 requests to call the API per day, All the calls are logged into the system and can be observed via a live dashboard.
 
