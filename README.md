@@ -219,37 +219,3 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
-Contributions Statement
-==============================
-Below are the contributions by the team members to create this App:
-
-1.Shika – 35%
-
-* Python Logic – Extract event narratives and episode narratives, and call NLP APIs for summarization and NER
-* GCP BigQuery - Extract Logs from logging table and preprocess data for the Dashboard
-* Live Data Studio Dashboard with important metrics related to WebApp
-* Summarization NLP model - Create, build, test, deploy, integrate
-* NER NLP model - Build, test, deploy, integrate
-* GCP hosting and debugging of API
-
-2. Sai – 35%
-
-* Streamlit Frontend updates
-* GCP Cloud function to extract logs from logger to Bigquery in realtime
-* BigQuery to store User access limits and User logs
-* BigQuery debugging
-* Integration Testing
-
-3.Saketh – 30%
-
-* NER Models research
-* Documentation
-* Architecture Diagram
-
-
-Attestation
-==============================
-
-We attest that we have not used any other Student’s work in our code and abide by the policies listed in the Northeastern University Student Handbook regarding plagiarism and intellectual property.
-
-
